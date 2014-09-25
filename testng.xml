@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="TestAll">
+	<test name="order1">
+		<classes>
+			<class name="Main.Test_SelectCity" />
+			<class name="Main.Test2_Search" />			
+			<class name="Main.Test1_Form" />
+			<class name="Main.Test3_Footer" />
+		</classes>			
+	</test>		
+</suite>

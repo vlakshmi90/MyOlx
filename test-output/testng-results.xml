@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[This is to Fill Submit ad Form]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55538" started-at="2014-09-25T12:01:42Z" finished-at="2014-09-25T12:02:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55538" started-at="2014-09-25T12:01:42Z" finished-at="2014-09-25T12:02:37Z">
+      <class name="Main.Test1_Form">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Main.Test1_Form@1ad552c]" name="initialize" is-config="true" duration-ms="16" started-at="2014-09-25T17:31:42Z" finished-at="2014-09-25T17:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Main.Test1_Form@1ad552c]" name="beforeMethod" is-config="true" duration-ms="5596" started-at="2014-09-25T17:31:42Z" finished-at="2014-09-25T17:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="urlFunction()[pri:0, instance:Main.Test1_Form@1ad552c]" name="urlFunction" duration-ms="49921" started-at="2014-09-25T17:31:47Z" finished-at="2014-09-25T17:32:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[This is to Fill Submit ad Form]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlFunction -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Main.Test1_Form@1ad552c]" name="afterSuite" is-config="true" duration-ms="2924" started-at="2014-09-25T17:32:37Z" finished-at="2014-09-25T17:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Main.Test1_Form -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
