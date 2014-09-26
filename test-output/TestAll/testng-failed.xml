@@ -3,29 +3,28 @@
 <suite name="Failed suite [TestAll]">
   <test name="order1(failed)">
     <classes>
-      <class name="Main.Test3_Footer">
+      <class name="Main.Test1_Form">
         <methods>
           <include name="initialize"/>
-          <include name="before"/>
-          <include name="afterSuite"/>
+          <include name="urlFunction"/>
+        </methods>
+      </class> <!-- Main.Test1_Form -->
+      <class name="Main.Test_SelectCity">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="selectCityTest1"/>
+        </methods>
+      </class> <!-- Main.Test_SelectCity -->
+      <class name="Main.Test3_Footer">
+        <methods>
+          <include name="imagesSort"/>
         </methods>
       </class> <!-- Main.Test3_Footer -->
       <class name="Main.Test2_Search">
         <methods>
           <include name="imagesSort"/>
-          <include name="before"/>
         </methods>
       </class> <!-- Main.Test2_Search -->
-      <class name="Main.Test_SelectCity">
-        <methods>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- Main.Test_SelectCity -->
-      <class name="Main.Test1_Form">
-        <methods>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- Main.Test1_Form -->
     </classes>
   </test> <!-- order1(failed) -->
 </suite> <!-- Failed suite [TestAll] -->

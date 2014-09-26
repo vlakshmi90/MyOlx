@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [TestAll]">
+  <test name="order1(failed)">
     <classes>
-      <class name="Main.NewTest_uploadImg">
+      <class name="Main.Test1_Form">
         <methods>
-          <include name="init"/>
-          <include name="show"/>
+          <include name="initialize"/>
+          <include name="urlFunction"/>
         </methods>
-      </class> <!-- Main.NewTest_uploadImg -->
+      </class> <!-- Main.Test1_Form -->
+      <class name="Main.Test_SelectCity">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="selectCityTest1"/>
+        </methods>
+      </class> <!-- Main.Test_SelectCity -->
+      <class name="Main.Test3_Footer">
+        <methods>
+          <include name="imagesSort"/>
+        </methods>
+      </class> <!-- Main.Test3_Footer -->
+      <class name="Main.Test2_Search">
+        <methods>
+          <include name="imagesSort"/>
+        </methods>
+      </class> <!-- Main.Test2_Search -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- order1(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
